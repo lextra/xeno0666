@@ -1,7 +1,7 @@
 new Typed('#typed',{
-  strings : ['alt @ xeno#0002','legit','/prediction', '/unleak', 'best troll', 'best dev', 'paster', 'very rich'],
+  strings : [,'xeno#0002','/prediction','/varity','immortal','best dev','crypto mastermind','paster',],
   typeSpeed : 40,
   delaySpeed : 90,
   showCursor: false,
   loop : true
-});
+})
