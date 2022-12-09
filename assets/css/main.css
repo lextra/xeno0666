@@ -107,28 +107,11 @@ a:hover {
 
 #socials {
   position: fixed;
-  top: 68.5%;
+  top: 78%;
   left: 40%;
   right: 40%;
   text-align: center;
   font-family: 'Consolas', monospace;
-}
-
-.box input[type="text"], .box input[type="password"], .box input[type="submit"]
-{
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(2, 2, 2);
-    background-color: rgb(226, 226, 226);
-    font-family: monospace;
-    font-style: normal;
-    font-weight: lighter;
-    text-align: center;
-    color:#fff;
-    display: block;
-    margin: 10px auto;
-    width: 200px;
-    box-sizing: border-box;
 }
 
 
@@ -161,6 +144,41 @@ a:hover {
   to {
     visibility: hidden;
   }
+}
+
+.box input[type="text"], .box input[type="password"], .box input[type="submit"]
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(2, 2, 2);
+    background-color: rgb(226, 226, 226);
+    font-family: monospace;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    color:#fff;
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.box input[type="text"]:focus, .box input[type="password"]:focus
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(2, 2, 2);
+    background-color: rgb(226, 226, 226);
+    font-family: monospace;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    color:#fff;
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    outline-width: 0;
+    box-sizing: border-box;
 }
 
 .typed-cursor{
